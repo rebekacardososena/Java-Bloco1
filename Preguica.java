@@ -1,8 +1,12 @@
-package Animal;
+package PolimorfismoHerança;
 
-public class Preguica extends AnimalH{
-	public void subir() {
-		System.out.println("Subindo na arvore...");
+public class Preguica extends Animal{
 
+	public void EmitirSom() {
+		System.out.println("moh paz...");
+	}
+	public void Movimento() {
+		System.out.println("Subindo...");
+	}
 }
-}
+
